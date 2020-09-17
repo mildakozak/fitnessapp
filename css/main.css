@@ -2,26 +2,35 @@
   margin: 0;
   padding: 0;
 }
-html{
+html, a{
   font-family: 'Montserrat', sans-serif;
+  color: #292929;
+}
+body{
+  margin-top: 100px;
+  background-color: #FCFCFC;
 }
 .top-navigation{
   height: 70px;
   background-color: #E64040;
   display: block;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .top-logo{
-  max-width: 90px;
+  max-width: 85px;
   margin: 0 auto;
 }
 .top-logo img{
-  margin-top: 10px;
+  margin-top: 13px;
 }
 .hamburger-menu{
   float: left;
 }
 .hamburger-menu img{
-  margin-top: 23px;
+  margin-top: 25px;
   margin-left: 15px;
 }
 .top-profile{
@@ -39,20 +48,152 @@ html{
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  color: #ffffff;
+  -webkit-overflow-scrolling: touch;
 }
 .card {
-  height: 80px;
+  height: auto;
   width: 90px;
   background-color: #E64040;
   display: inline-block;
-  margin-right: -4px;
-}
-.scrolling-wrapper {
-  -webkit-overflow-scrolling: touch;
+  margin-right: -5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .calendar{
-  padding-top: 30px;
+  text-align: center;
 }
-.active{
+.calendar H1{
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+.calendar H2{
+  font-weight: 700;
+  font-size: 1.875rem;
+}
+#active{
   background-color: #C13F3F;
+}
+.hedline-section H1{
+  margin-top: 40px;
+  font-size: 2rem;
+  text-align: center;
+}
+.element-description{
+  margin-top: 20px;
+}
+.element-description H3{
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+button {
+    font-size: 0.875rem;
+    border-radius: 100px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #EB3F3F;
+    display: block;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+    width: 90%;
+    max-width: 400px;
+}
+.button {
+    width: 75%;
+    height: 5.5rem;
+    font-size: 2rem;
+    border-radius: 100px;
+    color: white;
+    background-color: #E64040;
+    display: block;
+    margin: auto;
+}
+.flexbox {
+    display: flex;
+}
+.card-time {
+  min-height: 40px;
+  width: 70px;
+  background-color: #E64040;
+  display: inline-block;
+  margin-right: -5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.card2{
+  height: 90px;
+  background-color: #E74C4C;
+}
+.card3{
+  height: 150px;
+  background-color: #E85555;
+}
+.card4{
+  height: 120px;
+}
+.card5{
+  height: 70px;
+  background-color: #E74C4C;
+}
+.timetable-section{
+  padding-bottom: 100px;
+}
+.time-table{
+  text-align: center;
+}
+.calendar-section{
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+.navbar {
+  background-color: #F5F5F5;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav-category{
+  display: inline-block;
+}
+.plus{
+  background-color: #EB3F3F;
+  border-radius: 100%;
+}
+/*
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}*/
+.card-time p{
+
+}
+.friends-flexbox{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: blue;
+}
+.friends-wrapper{
+  display: block;
+  text-align: center;
+  margin-right: 10px;
 }
