@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html{
+  font-family: 'Montserrat', sans-serif;
+}
 .top-navigation{
   height: 70px;
   background-color: #E64040;
