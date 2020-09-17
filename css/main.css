@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.top-navigation{
+  height: 70px;
+  background-color: #E64040;
+  display: block;
+}
+.top-logo{
+  max-width: 90px;
+  margin: 0 auto;
+}
+.top-logo img{
+  margin-top: 10px;
+}
+.hamburger-menu{
+  float: left;
+}
+.hamburger-menu img{
+  margin-top: 23px;
+  margin-left: 15px;
+}
+.top-profile{
+  float: right;
+}
+.top-profile img{
+  width: 40px;
+}
+.bottom-navigation{
+  background-color: #F5F5F5;
+  height: 60px;
+  bottom: 0;
+}
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.card {
+  height: 80px;
+  width: 90px;
+  background-color: #E64040;
+  display: inline-block;
+  margin-right: -4px;
+}
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
+.calendar{
+  padding-top: 30px;
+}
+.active{
+  background-color: #C13F3F;
+}
