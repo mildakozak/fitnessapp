@@ -188,12 +188,23 @@ button {
 .friends-flexbox{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  fle
   padding-left: 20px;
   padding-right: 20px;
-  background-color: blue;
 }
 .friends-wrapper{
   display: block;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
   margin-right: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.friend-picture img{
+  max-width: 90px;
+}
+#margin-bottom{
+  margin-bottom: 50px;
 }
